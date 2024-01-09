@@ -1,0 +1,473 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial Black;}{\f1\fnil\fcharset0 Calibri;}{\f2\fnil\fcharset0 Arial;}{\f3\fmodern\fprq1 Lucida Console;}{\f4\fmodern\fprq1\fcharset0 Lucida Console;}{\f5\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green176\blue80;\red0\green0\blue255;\red0\green77\blue187;\red28\green168\blue0;\red177\green72\blue198;\red192\green160\blue0;\red0\green168\blue154;\red128\green128\blue128;\red255\green255\blue0;\red212\green44\blue58;\red0\green240\blue240;\red0\green242\blue0;\red51\green51\blue51;\red0\green0\blue0;\red165\green165\blue165;\red255\green255\blue255;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\cbpat16\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\cf1\b\f0\fs40 GIT & GITHUB:\par
+\ul GIT:\cf0\b0\f1\fs22\lang9\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\ulnone\f2\fs32 Git is a popular version control system. It was created by Linus Torvalds in 2005, and has been maintained by Junio Hamano since then.\par
+
+\pard\sa200\sl276\slmult1\ul\b It is used for:\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\ulnone\b0 Tracking code changes\par
+{\pntext\f5\'B7\tab}Tracking who made changes\par
+{\pntext\f5\'B7\tab}Coding collaboration\par
+
+\pard\sa200\sl276\slmult1\b What does Git do?\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Manage projects with Repositories\par
+{\pntext\f5\'B7\tab}Clone a project to work on a local copy\par
+{\pntext\f5\'B7\tab}Control and track changes with Staging and Committing\par
+{\pntext\f5\'B7\tab}Branch and Merge to allow for work on different parts and versions of a project\par
+{\pntext\f5\'B7\tab}Pull the latest version of the project to a local copy\par
+{\pntext\f5\'B7\tab}Push local updates to the main project\par
+
+\pard\sa200\sl276\slmult1\cf1\ul\b\f0\fs40\lang1033 GITHUB\cf0\f2\fs32\lang9\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\ulnone\b0 GitHub is a code hosting platform for collaboration and version control.\par
+{\pntext\f5\'B7\tab}GitHub lets you (and others) work together on projects.\par
+{\pntext\f5\'B7\tab}Sign up for GitHub at {{\field{\*\fldinst{HYPERLINK https://github.com/ }}{\fldrslt{https://github.com/\ul0\cf0}}}}\f2\fs32 :\par
+
+\pard\sa200\sl276\slmult1\ul\b GitHub essentials are:\ulnone\b0\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Repositories(A GitHub repository can be used to store a development project.)\par
+{\pntext\f5\'B7\tab}Branches(A GitHub branch is used to work with different versions of a repository at the same time.\par
+{\pntext\f5\'B7\tab}By default a repository has a master branch (a production branch).\par
+{\pntext\f5\'B7\tab}Commits(At GitHub, changes are called commits.)\par
+{\pntext\f5\'B7\tab}Pull Requests(Pull Requests are the heart of GitHub collaboration.\par
+{\pntext\f5\'B7\tab}With a pull request you are proposing that your changes should be merged (pulled in) with the master.)\par
+{\pntext\f5\'B7\tab}Git (the version control software GitHub is built on)\par
+
+\pard\sa200\sl276\slmult1\cf3\ul\b\f0\lang1033 Git Install\cf1\par
+\cf0\ulnone\f2 You can download Git for free from the following website: {{\field{\*\fldinst{HYPERLINK https://www.git-scm.com/ }}{\fldrslt{https://www.git-scm.com/\ul0\cf0}}}}\f2\fs32\par
+\cf3 USING GIT WITH COMMANDLINE:\par
+\cf0\b0 we can use git by Commandprompt,Powersell or Git bash\par
+\ul\b How to find Git Version?\ulnone\b0\par
+\cf4\f3\fs18 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/GITHUB/Coffee_machine_Project\cf7  (main)\par
+\cf0\highlight8 $ git --version\par
+\highlight0 git version 2.41.0.windows.1\par
+\cf3\b\f2\fs32\lang9 Configure Git\par
+\cf0\b0 Now let Git know who you are. This is important for version control systems, as each Git commit uses this information:\par
+\cf4\f3\fs18 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/GITHUB/Coffee_machine_Project\cf7  (main)\par
+\cf0 $ git config --global user.name "Karthik6622"\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/GITHUB/Coffee_machine_Project\cf7  (main)\par
+\cf0 $ git config --global user.email "karthikmca6622@gmail.com"\par
+\cf3\b\f2\fs32 Creating Git Folder\par
+
+\pard\sa200\sl240\slmult1\cf0 mkdir makes a new directory.\par
+cd changes the current working directory.\par
+\cf4\b0\f3\fs18 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 ~\cf7  (main)\par
+\cf0 $ cd E:\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e\par
+\cf0 $ mkdir New\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e\par
+\cf0 $ cd New/\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\par
+\cf0 $\par
+\cf3\b\f2\fs32\lang1033 I\lang9 nitialize Git\par
+\cf0\b0 Once you have navigated to the correct folder, you can initialize Git on that folder:\par
+\cf4\f3\fs18 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\par
+\cf0 $ git init\par
+Initialized empty Git repository in E:/New/.git/\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\cf7  (master)\par
+\cf0 $\par
+\cf9\highlight8\f2\fs32 You just created your first local Git Repository!\par
+\par
+\cf3\highlight0\b Git Adding New Files\cf0\b0\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1 You just created your first local Git repo. But it is empty.\par
+{\pntext\f5\'B7\tab}So let's add some files, or create a new file using your favourite text editor. Then save or move it to the folder you just created.\par
+
+\pard\sa200\sl240\slmult1 I have added Helloworld.py to local repo\par
+ ls will list the files in the directory. \par
+\cf4\f3\fs18 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\cf7  (master)\par
+\cf0 $ ls\par
+Helloworld.py\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\cf7  (master)\par
+\cf0 $\par
+\cf3\b\f2\fs32 Git Status\cf0\b0 :\par
+Using This command we can check git Current status\par
+\cf4\f3\fs18 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\cf7  (master)\par
+\cf0 $ git status\par
+On branch master\par
+No commits yet\par
+Untracked files:\par
+  (use "git add <file>..." to include in what will be committed)\par
+        \cf10 Helloworld.py\par
+\par
+\cf0 nothing added to commit but untracked files present (use "git add" to track)\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\cf7  (master)\par
+\cf0 $\par
+\f2\fs32 it's saying one file was there inside the ripo but it's not trackable\par
+Staging Area:\par
+process of adding code changes or modifications in an area to keep a track of it are called staging(local)\par
+Adding file to Staging Environment:\par
+if we want to add one file means,we can use below steps,\par
+\cf4\f3\fs18 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\cf7  (master)\par
+\cf0 $ git add Helloworld.py\par
+\f2\fs32 if we want to add more than one file means,we can use below steps,\par
+\cf4\f3\fs18 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\cf7  (master)\par
+\cf0 $ ls\par
+Calculator.py  Helloworld.py\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\cf7  (master)\par
+\cf0 $ git add --all\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\cf7  (master)\par
+\cf0 $ git status\par
+On branch master\par
+No commits yet\par
+Changes to be committed:\par
+  (use "git rm --cached <file>..." to unstage)\par
+        \cf4 new file:   Calculator.py\par
+\cf0         \cf4 new file:   Helloworld.py\par
+\cf0\f2\fs32\lang1033 instead of git add --all ,we can use git add -A or git add .\par
+\cf3\b Git Commit:\lang9\par
+\cf0\b0 we are ready move from stage to commit for our repo.\par
+Adding commits keep track of our progress and changes as we work. Git considers each commit change point or "save point". It is a point in the project you can go back to if you find a bug, or want to make a change.\par
+When we commit, we should always include a message.\par
+\cf4\f3\fs18 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\cf7  (master)\par
+\cf0 $ git commit -m "Adding PY file"\par
+[master (root-commit) 209138f] Adding PY file\par
+ 2 files changed, 41 insertions(+)\par
+ create mode 100644 Calculator.py\par
+ create mode 100644 Helloworld.py\par
+\f2\fs32 The commit command performs a commit, and the -m "message" adds a message.\par
+\cf3\b Git Commit without Stage\par
+\cf0\b0 we can dirctly commit the file with the help of  '-a'.no need to do add but this one better to use small chages in file'\par
+\cf4\f3\fs18 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\cf7  (master)\par
+\cf0 $ git commit -a -m "add"\par
+On branch master\par
+nothing to commit, working tree clean\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\cf7  (master)\par
+\cf0 $\par
+\cf3\b\f2\fs32 Git Commit Log\par
+\cf0\b0 To view the history of commits for a repository, you can use the log command:\par
+\cf4\f3\fs18 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\cf7  (master)\par
+\cf0 $ git log\par
+\cf6 commit 209138ff260c85248bc75a5283dd480e85890822 (\cf11 HEAD -> \cf12 master\cf6 )\par
+\cf0 Author: Karthik6622 <karthikmca6622@gmail.com>\par
+Date:   Wed Jul 26 19:29:14 2023 +0530\par
+    Adding PY file\par
+\par
+\cf3\b\f2\fs32\lang1033 Git Push:\par
+\cf13\b0 Git push is used to add commited files to Github repository\par
+(With out  add and commit we can't add files to github)\par
+\ul\b First_method:\line\ulnone\b0 If we have colned github repository before to our pc,we should use this method\par
+firstly,move to that cloned repository path like E:/sample--/\par
+\cf4\f3\fs18 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e\par
+\cf0 $ cd sample--/\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (main)\par
+\cf0 $\par
+\cf13\f2\fs32 add one file inside the Repository\par
+\cf4\f3\fs18 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (main)\par
+\cf0 $ git add .\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (main)\par
+\cf0 $ git commit -m "kkkk"\par
+[main d52d5c9] kkkk\par
+ 1 file changed, 4 insertions(+)\par
+ create mode 100644 print1.py\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (main)\par
+\cf0 $ git push\par
+Enumerating objects: 4, done.\par
+Counting objects: 100% (4/4), done.\par
+Delta compression using up to 4 threads\par
+Compressing objects: 100% (3/3), done.\par
+Writing objects: 100% (3/3), 336 bytes | 168.00 KiB/s, done.\par
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0\par
+To {{\field{\*\fldinst{HYPERLINK https://github.com/Karthik6622/sample--.git }}{\fldrslt{https://github.com/Karthik6622/sample--.git\ul0\cf0}}}}\f3\fs18\par
+   ea0bb37..d52d5c9  main -> main\par
+\cf13\f2\fs32 Files has been added Github sample-- repository\par
+\ul\b Second_method:\ulnone\b0\par
+If we have not colned github repository before to our pc,we should use this method.\par
+git remote add origin <repository_url>#in which repository we need to add our file.\par
+git push -u origin master#master-branch name(here we should give which branch files we goint to move github repository)\par
+\cf4\f3\fs18\lang9 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 ~\cf7  (main)\par
+\cf0 $ cd E:\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e\par
+\cf0 $ mkdir New\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e\par
+\cf0 $ cd New/\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\par
+\cf0 $\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\par
+\cf0 $ git init\par
+Initialized empty Git repository in E:/New/.git/\par
+\b\f4\fs24\lang1033 Add files some files to e/New\highlight9\b0\f2\par
+\cf4\highlight0\f3\fs18 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\cf7  (master)\par
+\cf0 $ git remote add origin {{\field{\*\fldinst{HYPERLINK https://github.com/Karthik6622/sample--.git }}{\fldrslt{https://github.com/Karthik6622/sample--.git\ul0\cf0}}}}\f3\fs18\par
+\f4              or\par
+\cf4\f3 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e\cf7  (master)\par
+\cf0 $ git remote set-url origin {{\field{\*\fldinst{HYPERLINK https://github.com/Karthik6622/PYTHON.git }}{\fldrslt{https://github.com/Karthik6622/PYTHON.git\ul0\cf0}}}}\f3\fs18\par
+\f4  \f3\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\cf7  (master)\par
+\cf0 $ git add .\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\cf7  (master)\par
+\cf0 $ git commit -m "Your commit message here"\par
+On branch master\par
+nothing to commit, working tree clean\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\cf7  (master)\par
+\cf0 $ git push -u origin master\par
+warning: auto-detection of host provider took too long (>2000ms)\par
+warning: see {{\field{\*\fldinst{HYPERLINK https://aka.ms/gcm/autodetect }}{\fldrslt{https://aka.ms/gcm/autodetect\ul0\cf0}}}}\f3\fs18  for more information.\par
+fatal: unable to access '{{\field{\*\fldinst{HYPERLINK https://github.com/Karthik6622/sample--.git/ }}{\fldrslt{https://github.com/Karthik6622/sample--.git/\ul0\cf0}}}}\f3\fs18 ': CONNECT \par
+tunnel failed, response 407\par
+\f4 NOTE:if you get this error while pushing,go to your pc proxy setting--->on the Automatically detect setting\f3\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\cf7  (master)\par
+\cf0 $ git push -u origin master\par
+Enumerating objects: 4, done.\par
+Counting objects: 100% (4/4), done.\par
+Delta compression using up to 4 threads\par
+Compressing objects: 100% (3/3), done.\par
+Writing objects: 100% (4/4), 532 bytes | 266.00 KiB/s, done.\par
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0\par
+To {{\field{\*\fldinst{HYPERLINK https://github.com/Karthik6622/sample--.git }}{\fldrslt{https://github.com/Karthik6622/sample--.git\ul0\cf0}}}}\f3\fs18\par
+ * [new branch]      master -> master\par
+branch 'master' set up to track 'origin/master'.\cf13\f2\fs32\par
+Files has been added Github sample-- repository\par
+\cf0\f4 If we want to push branch to github repo,use " git push --set-upstream origin kkk"\f3\lang9\par
+\cf3\b\f2 Git Help\par
+\cf0\b0 If you are having trouble remembering commands or options for commands, you can use Git help.\par
+There are a couple of different ways you can use the help command in command line:\par
+git command -help -  See all the available options for the specific command(git commit --help)\par
+git help --all -  See all possible commands\par
+\cf3\b Git Branch\cf0\b0\par
+In Git, a branch is a new/separate version of the main repository.\par
+Note:Defaultly we work in main branch\par
+How to create New branch?\f3\fs18\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\cf7  (master)\par
+\cf0 $ git checkout -b "Karthik"\par
+Switched to a new branch 'Karthik'\par
+\f2\fs32 How to check which branch inside we are working?\par
+\cf4\f3\fs18 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\cf7  (Karthik)\par
+\cf0 $ git branch\par
+* \cf4 Karthik\par
+\cf0   master\par
+\f2\fs32 How to Move one branch to another branch?\f3\fs18\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\cf7  (Karthik)\par
+\cf0 $ git checkout master\par
+Switched to branch 'master'\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/New\cf7  (master)\par
+\cf0 $ git branch\par
+  Karthik\par
+* \cf4 master\par
+\cf0\f2\fs32 How to Merge one branch changes to main branch?\par
+\cf4\f3\fs18 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (main)\par
+\cf0 $ git branch kkk\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (main)\par
+\cf0 $ git branch\par
+  kkk\par
+* \cf4 main\par
+Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (main)\par
+\cf0 $ git checkout kkk\par
+Switched to branch 'kkk'\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (kkk)\par
+\cf0 $ ls\par
+README.md  print1.py\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (kkk)\par
+\cf0 $ git add .\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (kkk)\par
+\cf0 $ git commit -m "Add c variable"\par
+[kkk ffeeba4] Add c variable\par
+ 1 file changed, 2 insertions(+), 1 deletion(-)\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (kkk)\par
+\cf0 $ git push --set-upstream origin kkk\par
+Enumerating objects: 5, done.\par
+Counting objects: 100% (5/5), done.\par
+Delta compression using up to 4 threads\par
+Compressing objects: 100% (3/3), done.\par
+Writing objects: 100% (3/3), 351 bytes | 175.00 KiB/s, done.\par
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0\par
+remote:\par
+remote: Create a pull request for 'kkk' on GitHub by visiting:\par
+remote:      {{\field{\*\fldinst{HYPERLINK https://github.com/Karthik6622/sample--/pull/new/kkk }}{\fldrslt{https://github.com/Karthik6622/sample--/pull/new/kkk\ul0\cf0}}}}\f3\fs18\par
+remote:\par
+To {{\field{\*\fldinst{HYPERLINK https://github.com/Karthik6622/sample--.git }}{\fldrslt{https://github.com/Karthik6622/sample--.git\ul0\cf0}}}}\f3\fs18\par
+ * [new branch]      kkk -> kkk\par
+branch 'kkk' set up to track 'origin/kkk'.\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (kkk)\par
+\cf0 $ git switch main\par
+Switched to branch 'main'\par
+Your branch is up to date with 'origin/main'.\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (main)\par
+\cf0 $ git merge kkk\par
+Updating 48e3653..ffeeba4\par
+Fast-forward\par
+ print1.py | 3 \cf4 ++\cf10 -\par
+\cf0  1 file changed, 2 insertions(+), 1 deletion(-)\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (main)\par
+\cf0 $ git add .\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (main)\par
+\cf0 $ git commit -m "add k brach changes to main"\par
+On branch main\par
+Your branch is ahead of 'origin/main' by 1 commit.\par
+  (use "git push" to publish your local commits)\par
+nothing to commit, working tree clean\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (main)\par
+\cf0 $ git push\par
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0\par
+To {{\field{\*\fldinst{HYPERLINK https://github.com/Karthik6622/sample--.git }}{\fldrslt{https://github.com/Karthik6622/sample--.git\ul0\cf0}}}}\f3\fs18\par
+   48e3653..ffeeba4  main -> main\par
+\f2\fs32\lang1033 How delete Branch ?\par
+\ul\b Delete pused Github branch:\par
+\cf4\ulnone\b0\f3\fs18\lang9 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (main)\par
+\cf0 $ git push origin --delete kkk\par
+To {{\field{\*\fldinst{HYPERLINK https://github.com/Karthik6622/sample--.git }}{\fldrslt{https://github.com/Karthik6622/sample--.git\ul0\cf0}}}}\f3\fs18\par
+ - [deleted]         kkk\par
+\ul\b\f2\fs32\lang1033 Delete Local Branch:\par
+Merged with main:\par
+\cf4\ulnone\b0\f3\fs18 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (main)\par
+\cf0 $ git branch -d kkk\par
+Deleted branch kkk (was ffeeba4).\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (main)\par
+\cf0 $ git branch\par
+* \cf4 main\par
+\cf14\ul\b\f2\fs32 Delete Unmerged branch\par
+\cf0\ulnone\b0\lang9 git branch -D branch_name\par
+\par
+\cf3\b Git Clone:\par
+\cf0\b0 With clone clone command we can save github repository files into our local Pc\par
+first, we should copy Https path from the github\par
+\cf4\f3\fs18 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e\par
+\cf0 $ git clone {{\field{\*\fldinst{HYPERLINK https://github.com/Karthik6622/sample--.git }}{\fldrslt{https://github.com/Karthik6622/sample--.git\ul0\cf0}}}}\f3\fs18\par
+Cloning into 'sample--'...\par
+warning: You appear to have cloned an empty repository.\par
+\f2\fs32 If we go to inside the E: drive we can see sample-- repository\par
+\cf3\b Git Clone with token Method:\par
+\cf0\b0 First we should go github home page -->Click Profile picture-->then click Setting-->Developer settings-->Personal Access Tokens-->Token(classic)-->Generate new token-->Generate new Token(classic)--->give token name--->expiary date whatever you want-->Then select whatever check box we want and click generate token--->Notedown the Id Somewhere cause it's show only one time.(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)\par
+\cf4\f3\fs18 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/raj\par
+\cf0 $ git clone {{\field{\*\fldinst{HYPERLINK https://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@github.com/Karthik6622/sample--.git }}{\fldrslt{https://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@github.com/Karthik6622/sample--.git\ul0\cf0}}}}\f3\fs18\par
+Cloning into 'sample--'...\par
+warning: You appear to have cloned an empty repository.\par
+\f2\fs32  If we go to inside the E:/raj drive we can see sample-- repository\par
+\f3\fs18\par
+\cf3\b\f2\fs32 Git Pull:\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1\cf14 If we clone the Github repository to our local After that somebody did changes in github repository and push to github repository.That changes are not applied your local repository file.if we want to add that github repository changes to our pc repo we can use pull command. \par
+
+\pard\sa200\sl240\slmult1\cf4\b0\f3\fs18 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 ~\cf7  (main)\par
+\cf0 $ cd e:\par
+\f4\lang1033 #cloning the github repo which is alredy has print1.py file\f3\lang9\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e\par
+\cf0 $ git clone {{\field{\*\fldinst{HYPERLINK https://github.com/Karthik6622/sample--.git }}{\fldrslt{https://github.com/Karthik6622/sample--.git\ul0\cf0}}}}\f3\fs18\par
+Cloning into 'sample--'...\par
+remote: Enumerating objects: 9, done.\par
+remote: Counting objects: 100% (9/9), done.\par
+remote: Compressing objects: 100% (7/7), done.\par
+remote: Total 9 (delta 0), reused 6 (delta 0), pack-reused 0\par
+Receiving objects: 100% (9/9), done.\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e\par
+\cf0 $ cd sample--/\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (main)\par
+\cf0 $ ls\par
+README.md  print1.py\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (main)\par
+\cf0 $ cd ..\par
+\f4\lang1033 #then same github repo cloning to another path e/karthik\f3\lang9\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e\par
+\cf0 $ cd karthik/\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/karthik\par
+\cf0 $ git clone {{\field{\*\fldinst{HYPERLINK https://github.com/Karthik6622/sample--.git }}{\fldrslt{https://github.com/Karthik6622/sample--.git\ul0\cf0}}}}\f3\fs18\par
+Cloning into 'sample--'...\par
+remote: Enumerating objects: 9, done.\par
+remote: Counting objects: 100% (9/9), done.\par
+remote: Compressing objects: 100% (7/7), done.\par
+remote: Total 9 (delta 0), reused 6 (delta 0), pack-reused 0\par
+Receiving objects: 100% (9/9), done.\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/karthik\par
+\cf0 $ cd sample--/\par
+\f4\lang1033 #adding d variable inside the print1.py file manually\f3\lang9\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/karthik/sample--\cf7  (main)\par
+\cf0 $ ls\par
+README.md  print1.py\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/karthik/sample--\cf7  (main)\par
+\cf0 $ git add .\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/karthik/sample--\cf7  (main)\par
+\cf0 $ git commit -m "Adding D variable"\par
+[main 7037895] Adding D variable\par
+ 1 file changed, 2 insertions(+), 1 deletion(-)\par
+\f4\lang1033 #pusing changes to github repo\f3\lang9\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/karthik/sample--\cf7  (main)\par
+\cf0 $ git push\par
+Enumerating objects: 5, done.\par
+Counting objects: 100% (5/5), done.\par
+Delta compression using up to 4 threads\par
+Compressing objects: 100% (3/3), done.\par
+Writing objects: 100% (3/3), 358 bytes | 179.00 KiB/s, done.\par
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0\par
+To {{\field{\*\fldinst{HYPERLINK https://github.com/Karthik6622/sample--.git }}{\fldrslt{https://github.com/Karthik6622/sample--.git\ul0\cf0}}}}\f3\fs18\par
+   ffeeba4..7037895  main -> main\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/karthik/sample--\cf7  (main)\par
+\cf0 $ cd ..\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/karthik\par
+\cf0 $ cd ..\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e\par
+\cf0 $ cd sample--/\par
+\f4\lang1033 #if we going to see e:/sample-- path, d variable not addded to print1.py file\f3\lang9\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (main)\par
+\cf0 $ ls\par
+README.md  print1.py\par
+\f4\lang1033 #if we execute "git pull",changes will be applay to our local file\f3\lang9\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (main)\par
+\cf0 $ git pull\par
+remote: Enumerating objects: 5, done.\par
+remote: Counting objects: 100% (5/5), done.\par
+remote: Compressing objects: 100% (3/3), done.\par
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0\par
+Unpacking objects: 100% (3/3), 338 bytes | 2.00 KiB/s, done.\par
+From {{\field{\*\fldinst{HYPERLINK https://github.com/Karthik6622/sample }}{\fldrslt{https://github.com/Karthik6622/sample\ul0\cf0}}}}\f3\fs18 --\par
+   ffeeba4..7037895  main       -> origin/main\par
+Updating ffeeba4..7037895\par
+Fast-forward\par
+ print1.py | 3 \cf4 ++\cf10 -\par
+\cf0  1 file changed, 2 insertions(+), 1 deletion(-)\par
+\cf4 Admin@DESKTOP-C8O12QB \cf5 MINGW64 \cf6 /e/sample--\cf7  (main)\par
+\cf0 $ git status\par
+On branch main\par
+Your branch is up to date with 'origin/main'.\par
+nothing to commit, working tree clean\par
+\f4\lang1033 ----------------------------------------------------------------------------------\f3\lang9\par
+\par
+\cf14\b\f2\fs32 how to delete folder in Git\par
+ChatGPT\par
+To delete a folder (directory) in a Git repository, you need to use a combination of Git commands. Deleting a folder from a Git repository involves removing all the files and subdirectories inside the folder and then committing the changes. Here's how you can do it:\par
+\par
+Navigate to the Repository Directory:\par
+Open a terminal or command prompt and change your working directory to the root directory of the Git repository.\par
+\par
+Remove the Folder Contents:\par
+To delete all the files and subdirectories inside the folder, you can use the following command:\par
+\par
+bash\par
+Copy code\par
+\cf15 git rm -r folder_name\par
+\cf14 Replace folder_name with the name of the folder you want to delete.\par
+\par
+The -r flag stands for "recursive" and ensures that all files and subdirectories inside the folder are also removed.\par
+\par
+Commit the Deletion:\par
+After removing the folder contents, you need to commit the change:\par
+\par
+bash\par
+Copy code\par
+\cf15 git commit -m "Delete folder_name"\par
+\cf14 Replace the commit message inside the quotes with a descriptive message explaining the deletion.\par
+\par
+Push the Changes to GitHub (Optional):\par
+Finally, if you want to update the remote repository (e.g., GitHub) with the deleted folder, push the changes:\par
+\par
+bash\par
+Copy code\par
+\cf15 git push origin main\par
+\cf14 Replace main with the name of the branch you want to push the changes to (e.g., "main" or "master").\par
+\par
+Please exercise caution when deleting a folder, as the deletion is permanent, and the files inside the folder will be lost. Make sure to have a backup or ensure that you no longer need the folder and its contents before proceeding with the deletion. Also, ensure you have the necessary permissions to modify the repository on the remote server.\par
+\cf3\b0\par
+\cf4\f4\fs18\lang1033 --------------------------------------------------------------------------------\par
+if we want to clone the repository first time we have to config the proxy server and port as below:\par
+git config --global http.proxy {{\field{\*\fldinst{HYPERLINK http://your.proxy.server:port }}{\fldrslt{http://your.proxy.server:port\ul0\cf0}}}}\f4\fs18\par
+git config --global https.proxy {{\field{\*\fldinst{HYPERLINK https://your.proxy.server:port }}{\fldrslt{https://your.proxy.server:port\ul0\cf0}}}}\f4\fs18\par
+--------------------------------------------------------------------------------\f3\lang9\par
+\cf0\par
+\par
+\par
+\f2\fs32\par
+}
+ 
